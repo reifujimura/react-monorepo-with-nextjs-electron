@@ -1,0 +1,20 @@
+{
+  "name": "@monorepo/common",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "storybook": "start-storybook -p 6006"
+  },
+  "dependencies": {
+    "@types/react": "^17.0.30",
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^6.3.12",
+    "@storybook/react": "^6.3.12",
+    "react-dom": "^17.0.2"
+  }
+}
