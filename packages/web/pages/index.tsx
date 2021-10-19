@@ -1,3 +1,5 @@
 import { Button } from '@monorepo/common'
 
-export default Button
+const Home = () => <Button name="test" />
+
+export default Home

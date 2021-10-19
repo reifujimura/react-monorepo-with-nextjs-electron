@@ -1,4 +1,4 @@
 import React from 'react'
-export const Button = () => {
-  return <button>TEST</button>
+export const Button = (sample: Sample) => {
+  return <button>{sample.name}</button>
 }

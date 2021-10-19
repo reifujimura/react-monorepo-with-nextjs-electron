@@ -1,5 +1,5 @@
 {
-  "extends": "../../node_modules/electron-webpack/tsconfig-base.json",
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
     "allowJs": true,
     "skipLibCheck": true,
@@ -8,17 +8,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "esModuleInterop": true
+    "lib": ["dom", "dom.iterable", "esnext"]
   },
-  "include": [
-    "next-env.d.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["next-env.d.ts"],
+  "exclude": ["node_modules"]
 }
