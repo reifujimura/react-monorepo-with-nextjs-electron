@@ -5,5 +5,6 @@
     "outDir": "dist",
     "jsx": "react"
   },
-  "include": ["../../types.d.ts", "src/**/*"]
+  "include": ["../../types.d.ts", "src/**/*", "__tests__/**/*"],
+  "exclude": ["__tests__"]
 }
