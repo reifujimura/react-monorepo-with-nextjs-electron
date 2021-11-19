@@ -1,15 +1,14 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "declaration": true,
-    "outDir": "dist",
     "jsx": "react"
   },
   "include": [
     "../../types/*.d.ts",
     "src/**/*",
     "__tests__/**/*",
-    "__mocks__/**/*"
+    "__mocks__/**/*",
+    "stories/**/*"
   ],
-  "exclude": ["__tests__", "__mocks__"]
+  "exclude": ["node_modules"]
 }
